@@ -1,0 +1,82 @@
+.log-in-container {
+    width: 24rem;
+    height: 22rem;
+    border-radius: 0.7rem;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    font-weight: bolder;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+}
+
+.log-in-field {
+    width: 22rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    text-indent: 0.7rem;
+    font-size: 0.9rem;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.log-in-button {
+    width: 7rem;
+    height: 2.5rem;    
+    border-radius: 5rem;
+    font-weight: bold;
+    font-size: 0.8rem;
+    margin-left: 1.5rem;
+}
+
+.log-in-field:focus {
+    border: 1.5px solid #1A73E8;
+    outline: none;
+}
+
+.log-in-field:valid {
+    background: white;
+}
+
+.log-in-button-container {
+    display: flex;    
+    width: 22rem;
+    height: 2.5rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+.feedback-container {
+    width: 11rem;
+    text-align: left;
+    font-size: 0.8rem;
+    font-weight:600;
+    color: rgb(202, 9, 9);
+}
+
+.heading-container {
+    margin-bottom: 2.5rem;
+    margin-top: 0.7rem;
+    width: 22rem;
+    text-align: center;
+    font-weight:400;
+}
+
+.log-out-button {
+    width: 7rem;
+    height: 2.5rem;    
+    border-radius: 10rem;
+    background-color: #1a73e800;
+    border:1px solid;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+.log-out-container {
+    max-width: 60rem;
+}
+
+@media (max-width: 576px)  {
+    .log-in-container {
+        box-shadow: none;
+        border: none;
+    }
+}

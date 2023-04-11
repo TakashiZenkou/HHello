@@ -1,0 +1,19 @@
+.create-user-button{
+    border-radius: 5rem;
+    font-weight: bold;
+}
+
+.user-list-ele{
+    font-size: 1.1rem;
+}
+
+.delete-button{
+    border-radius: 5rem;    
+}
+
+.user-icon{
+    fill: #6C757D;
+    aspect-ratio: 1/1;
+    width: 30%;
+    height: 30%
+}

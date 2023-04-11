@@ -1,0 +1,35 @@
+.dashboard-container{
+    background-color: white;
+    border: 1.5px solid rgba(0, 0, 0, 0.2 );
+    font-weight: bolder;
+    text-align: left;
+    /* box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px; */
+    height: 100%;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border-radius: 0.5rem; 
+    max-width: 60rem;
+    min-height: 50rem;
+}
+
+.dashboard-action-button{
+    border-radius: 5rem;
+    aspect-ratio: 1 / 1;
+}
+
+.div-line{
+    height: 0.1rem;
+}
+
+.transparent{
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.fit-content{
+    height: fit-content;
+}
+
+.vertical-overflow {
+    overflow-y: visible !important;
+}
